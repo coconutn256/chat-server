@@ -65,6 +65,52 @@ public class MysqlDatabase {
         }
     }
 
+
+    public int addUsrInfo(UsrInfo usrInfo){
+        try{
+            String sql = "select * from usrinfo where uid = \'" + usrInfo.uid +"\';";
+            ResultSet rs = stmt.executeQuery(sql);
+            if(rs.next())
+                return -1;
+        }catch (SQLException e){
+            e.printStackTrace();
+        }
+
+        try {
+            String sql = "insert into usrinfo[(uid,name,avator,password)] values (\'"+ usrInfo.uid +"\',\'"+ usrInfo.name +
+                    "\',\'"+ usrInfo.avator+"\',\'"+ usrInfo.password +"\');";
+            stmt.executeQuery(sql);
+            return 0;
+        }catch (SQLException e){
+            //TODO:
+            e.printStackTrace();
+        }
+        return -1;
+    }
+
+    public int setUsrInfo(UsrInfo usrInfo){
+        try{
+            String sql = "select * from usrinfo where uid = \'" + usrInfo.uid +"\';";
+            ResultSet rs = stmt.executeQuery(sql);
+            if(!rs.next())
+                return -1;
+        }catch (SQLException e){
+            e.printStackTrace();
+        }
+
+        try {
+            String sql = "update usrinfo set name=\'"+ usrInfo.name +
+                    "\',avator=\'"+ usrInfo.avator+"\',password=\'"+ usrInfo.password +"\' where uid=\'"+ usrInfo.uid +"\';";
+            stmt.executeQuery(sql);
+            return 0;
+        }catch (SQLException e){
+            //TODO:
+            e.printStackTrace();
+        }
+        return -1;
+    }
+
+
     public List<String> getFriendsByUid(String uid) {
         String sql = "select * from friends where uid = \"" + uid + "\";";
         List<String> results = new ArrayList<String>();
@@ -94,8 +140,8 @@ public class MysqlDatabase {
             ResultSet rs = stmt.executeQuery(sql);
             while (rs.next()) {
                 Message message = new Message();
-                message.uid = uid;
-                message.targetId = targetId;
+                message.uid = rs.getString("uid");
+                message.targetId = rs.getString("target_id");
                 message.type = rs.getInt("type");
                 message.content = rs.getString("content");
                 message.dateTime = rs.getTimestamp("date");
