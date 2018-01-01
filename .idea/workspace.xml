@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6282d2a2-dc37-4433-9955-bea407c6aebe" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/README.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/org.json-20120521.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Start.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/data/Json/JsonUtils.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/model/Friend.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/server/TCPServer.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/chat-server.iml" afterPath="$PROJECT_DIR$/chat-server.iml" />
-      <change beforePath="$PROJECT_DIR$/src/data/mysql/MysqlDatabase.java" afterPath="$PROJECT_DIR$/src/data/mysql/MysqlDatabase.java" />
-      <change beforePath="$PROJECT_DIR$/src/model/Message.java" afterPath="$PROJECT_DIR$/src/model/Message.java" />
-      <change beforePath="$PROJECT_DIR$/src/model/MessageType.java" afterPath="$PROJECT_DIR$/src/model/MessageType.java" />
-      <change beforePath="$PROJECT_DIR$/src/model/UsrInfo.java" afterPath="$PROJECT_DIR$/src/model/UsrInfo.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -152,8 +141,8 @@
       <file leaf-file-name="TCPServer.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/server/TCPServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="24" column="13" lean-forward="true" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+            <state relative-caret-position="486">
+              <caret line="27" column="26" lean-forward="true" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -447,12 +436,20 @@
       <workItem from="1512785563264" duration="3665000" />
       <workItem from="1512870834187" duration="47000" />
       <workItem from="1513857360194" duration="5485000" />
-      <workItem from="1514791818207" duration="7614000" />
+      <workItem from="1514791818207" duration="7656000" />
     </task>
+    <task id="LOCAL-00001" summary="13">
+      <created>1514799471009</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1514799471009</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22280000" />
+    <option name="totallyTimeSpent" value="22322000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1844" height="1096" extended-state="6" />
@@ -491,6 +488,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="13" />
+    <option name="LAST_COMMIT_MESSAGE" value="13" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1069,8 +1070,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/server/TCPServer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="24" column="13" lean-forward="true" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+        <state relative-caret-position="486">
+          <caret line="27" column="26" lean-forward="true" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
