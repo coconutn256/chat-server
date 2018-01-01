@@ -17,9 +17,11 @@ public class UsrInfo {
         password = null;
     }
 
-    public UsrInfo(String uid,String name){
+    public UsrInfo(String uid,String passwd){
         this.uid = uid;
-        this.name = name;
+        this.password = passwd;
+        name = null;
+        avator = null;
     }
 
 

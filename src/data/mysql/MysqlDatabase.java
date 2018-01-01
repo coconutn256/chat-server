@@ -38,10 +38,8 @@ public class MysqlDatabase {
             return result;
         } catch (SQLException se) {
             se.printStackTrace();
-        } catch (Exception e) {
-            e.printStackTrace();
         } finally {
-            return result;
+            return null;
         }
     }
 
@@ -61,49 +59,49 @@ public class MysqlDatabase {
         } catch (Exception e) {
             e.printStackTrace();
         } finally {
-            return usrInfo;
+            return null;
         }
     }
 
 
-    public int addUsrInfo(UsrInfo usrInfo){
-        try{
-            String sql = "select * from usrinfo where uid = \'" + usrInfo.uid +"\';";
+    public int addUsrInfo(UsrInfo usrInfo) {
+        try {
+            String sql = "select * from usrinfo where uid = \'" + usrInfo.uid + "\';";
             ResultSet rs = stmt.executeQuery(sql);
-            if(rs.next())
+            if (rs.next())
                 return -1;
-        }catch (SQLException e){
+        } catch (SQLException e) {
             e.printStackTrace();
         }
 
         try {
-            String sql = "insert into usrinfo[(uid,name,avator,password)] values (\'"+ usrInfo.uid +"\',\'"+ usrInfo.name +
-                    "\',\'"+ usrInfo.avator+"\',\'"+ usrInfo.password +"\');";
+            String sql = "insert into usrinfo(uid,name,avator,password) values (\'" + usrInfo.uid + "\',\'" + usrInfo.name +
+                    "\',\'" + usrInfo.avator + "\',\'" + usrInfo.password + "\');";
             stmt.executeQuery(sql);
             return 0;
-        }catch (SQLException e){
+        } catch (SQLException e) {
             //TODO:
             e.printStackTrace();
         }
         return -1;
     }
 
-    public int setUsrInfo(UsrInfo usrInfo){
-        try{
-            String sql = "select * from usrinfo where uid = \'" + usrInfo.uid +"\';";
+    public int setUsrInfo(UsrInfo usrInfo) {
+        try {
+            String sql = "select * from usrinfo where uid = \'" + usrInfo.uid + "\';";
             ResultSet rs = stmt.executeQuery(sql);
-            if(!rs.next())
+            if (!rs.next())
                 return -1;
-        }catch (SQLException e){
+        } catch (SQLException e) {
             e.printStackTrace();
         }
 
         try {
-            String sql = "update usrinfo set name=\'"+ usrInfo.name +
-                    "\',avator=\'"+ usrInfo.avator+"\',password=\'"+ usrInfo.password +"\' where uid=\'"+ usrInfo.uid +"\';";
+            String sql = "update usrinfo set name=\'" + usrInfo.name +
+                    "\',avator=\'" + usrInfo.avator + "\',password=\'" + usrInfo.password + "\' where uid=\'" + usrInfo.uid + "\';";
             stmt.executeQuery(sql);
             return 0;
-        }catch (SQLException e){
+        } catch (SQLException e) {
             //TODO:
             e.printStackTrace();
         }
@@ -111,13 +109,19 @@ public class MysqlDatabase {
     }
 
 
-    public List<String> getFriendsByUid(String uid) {
+    public List<Friend> getFriendsByUid(String uid) {
         String sql = "select * from friends where uid = \"" + uid + "\";";
-        List<String> results = new ArrayList<String>();
+        List<Friend> results = new ArrayList<Friend>();
         try {
             ResultSet rs = stmt.executeQuery(sql);
+            Friend friend;
             while (rs.next()) {
-                results.add(rs.getString("friend_id"));
+                friend = new Friend();
+                friend.uid = uid;
+                friend.friend_id = rs.getString("friend_id");
+                friend.remark = rs.getString("remark");
+                friend.tag = rs.getString("tag");
+                results.add(friend);
             }
             rs.close();
             return results;
@@ -126,14 +130,43 @@ public class MysqlDatabase {
         } catch (Exception e) {
             e.printStackTrace();
         } finally {
-            return results;
+            return null;
+        }
+    }
+
+    public void addFriend(String uid, String friend_id) {
+        String sql1 = "insert into friends(id,uid,friend_id) values (\'" + getRowNum("friends") + "\',\'" + uid + "\',\'" + friend_id + "\');";
+        String sql2 = "insert into friends(id,uid,friend_id) values (\'" + getRowNum("friends")+1 + "\',\'" + friend_id + "\',\'" + uid + "\');";
+        try {
+            stmt.execute(sql1);
+            stmt.execute(sql2);
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+    }
+
+    public void delFriend(String uid, String friend_id) {
+        String sql = "DELETE FROM friends WHERE uid = " + uid + " and friend_id = " + friend_id + " ;";
+        try {
+            stmt.execute(sql);
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+    }
+
+    public void setFriend(String uid, String friend_id, String remark, String tag) {
+        String sql = "update friends set remark=\'" + remark + "\',tag=\'" + tag + "\';";
+        try {
+            stmt.execute(sql);
+        } catch (SQLException e) {
+            e.printStackTrace();
         }
     }
 
     //按时间倒序排列
     public List<Message> getRecentMessage(String uid, String targetId) {
         String sql = "select * from message where uid = \"" +
-                uid + "\" and target_id = + \"" + targetId + "\" or uid = \""  +
+                uid + "\" and target_id = + \"" + targetId + "\" or uid = \"" +
                 targetId + "\" and target_id = \"" + uid + "\" order by date DESC " + ";";
         List<Message> results = new ArrayList<Message>();
         try {
@@ -155,6 +188,25 @@ public class MysqlDatabase {
             e.printStackTrace();
         } finally {
             return results;
+        }
+
+    }
+
+    private int getRowNum(String table) {
+        String sql = "select id from " + table + " order by id desc;";
+        try {
+            ResultSet rs = stmt.executeQuery(sql);
+            if (rs.next()) {
+                int num = rs.getInt(1);
+                rs.close();
+                return num + 1;
+            } else {
+                rs.close();
+                return 0;
+            }
+        } catch (SQLException e) {
+            e.printStackTrace();
+            return -1;
         }
 
     }
