@@ -2,7 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6282d2a2-dc37-4433-9955-bea407c6aebe" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/runable/Start.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/tools/ByteUtils.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/README.txt" afterPath="$PROJECT_DIR$/README.txt" />
+      <change beforePath="$PROJECT_DIR$/src/Start.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/data/Json/JsonUtils.java" afterPath="$PROJECT_DIR$/src/tools/JsonUtils.java" />
+      <change beforePath="$PROJECT_DIR$/src/data/mysql/MysqlDatabase.java" afterPath="$PROJECT_DIR$/src/data/mysql/MysqlDatabase.java" />
+      <change beforePath="$PROJECT_DIR$/src/model/MessageType.java" afterPath="$PROJECT_DIR$/src/model/MessageType.java" />
+      <change beforePath="$PROJECT_DIR$/src/server/TCPServer.java" afterPath="$PROJECT_DIR$/src/server/TCPServer.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,58 +36,58 @@
       <file leaf-file-name="MysqlDatabase.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/data/mysql/MysqlDatabase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="611">
-              <caret line="131" column="19" lean-forward="true" selection-start-line="131" selection-start-column="19" selection-end-line="131" selection-end-column="19" />
+            <state relative-caret-position="3348">
+              <caret line="191" column="5" lean-forward="false" selection-start-line="191" selection-start-column="5" selection-end-line="191" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#3522#3530#0" expanded="true" />
-                <marker date="1514799225699" expanded="true" signature="832:860" ph="select passw... usrinfo" />
-                <marker date="1514799225699" expanded="true" signature="832:873" ph="select passw... usrinfo" />
-                <marker date="1514799225699" expanded="true" signature="832:875" ph="select passw... usrinfo" />
-                <marker date="1514799225699" expanded="true" signature="832:885" ph="select passw... usrinfo" />
-                <marker date="1514799225699" expanded="true" signature="832:886" ph="select passw... usrinfo" />
-                <marker date="1514799225699" expanded="true" signature="832:888" ph="select passw... usrinfo" />
-                <marker date="1514799225699" expanded="true" signature="832:889" ph="select passw... usrinfo" />
-                <marker date="1514799225699" expanded="true" signature="1379:1423" ph="select passw... usrinfo" />
-                <marker date="1514799225699" expanded="true" signature="1379:1425" ph="select name,... usrinfo" />
-                <marker date="1514799225699" expanded="true" signature="1379:1438" ph="select name,... usrinfo" />
-                <marker date="1514799225699" expanded="true" signature="1379:1439" ph="select name,... usrinfo" />
-                <marker date="1514799225699" expanded="true" signature="1967:2024" ph="select * fro... usrinfo" />
-                <marker date="1514799225699" expanded="true" signature="2252:2431" ph="insert into usrinfo... " />
-                <marker date="1514799225699" expanded="true" signature="2702:2759" ph="select * fro... usrinfo" />
-                <marker date="1514799225699" expanded="true" signature="2988:3012" ph="update usrInfo... " />
-                <marker date="1514799225699" expanded="true" signature="2988:3031" ph="update usrInfo... " />
-                <marker date="1514799225699" expanded="true" signature="2988:3102" ph="update usrinfo... " />
-                <marker date="1514799225699" expanded="true" signature="2988:3128" ph="update usrInfo... " />
-                <marker date="1514799225699" expanded="true" signature="2988:3139" ph="update usrinfo... " />
-                <marker date="1514799225699" expanded="true" signature="2988:3141" ph="update usrinfo... " />
-                <marker date="1514799225699" expanded="true" signature="2988:3162" ph="update usrinfo... " />
-                <marker date="1514799225699" expanded="true" signature="2988:3163" ph="update usrInfo... " />
-                <marker date="1514799225699" expanded="true" signature="3425:3459" ph="select uid f... friends" />
-                <marker date="1514799225699" expanded="true" signature="3425:3461" ph="select uid f... friends" />
-                <marker date="1514799225699" expanded="true" signature="3425:3471" ph="select uid f... friends" />
-                <marker date="1514799225699" expanded="true" signature="3425:3474" ph="select * fro... friends" />
-                <marker date="1514799225699" expanded="true" signature="3425:3475" ph="select uid f... friends" />
-                <marker date="1514799225699" expanded="true" signature="4280:4397" ph="insert into friends... " />
-                <marker date="1514799225699" expanded="true" signature="4424:4543" ph="insert into friends... " />
-                <marker date="1514799225699" expanded="true" signature="4790:4850" ph="DELETE FROM friends... " />
-                <marker date="1514799225699" expanded="true" signature="5109:5173" ph="update friends... " />
-                <marker date="1514799225699" expanded="true" signature="5109:5174" ph="update friends... " />
-                <marker date="1514799225699" expanded="true" signature="5416:5454" ph="select * fro... message" />
-                <marker date="1514799225699" expanded="true" signature="5416:5497" ph="select * fro... message" />
-                <marker date="1514799225699" expanded="true" signature="5416:5499" ph="select * fro... message" />
-                <marker date="1514799225699" expanded="true" signature="5416:5500" ph="select * fro... message" />
-                <marker date="1514799225699" expanded="true" signature="5416:5510" ph="select * fro... message" />
-                <marker date="1514799225699" expanded="true" signature="5416:5516" ph="select * fro... message" />
-                <marker date="1514799225699" expanded="true" signature="5416:5517" ph="select * fro... message" />
-                <marker date="1514799225699" expanded="true" signature="5416:5583" ph="select * fro... message" />
-                <marker date="1514799225699" expanded="true" signature="5416:5594" ph="select * fro... message" />
-                <marker date="1514799225699" expanded="true" signature="5416:5595" ph="select * fro... message" />
-                <marker date="1514799225699" expanded="true" signature="5416:5617" ph="select * fro... message" />
-                <marker date="1514799225699" expanded="true" signature="5416:5624" ph="select * fro... message" />
-                <marker date="1514799225699" expanded="true" signature="6482:6496" ph="select count... " />
-                <marker date="1514799225699" expanded="true" signature="6482:6508" ph="select count... " />
-                <marker date="1514799225699" expanded="true" signature="6482:6527" ph="select id fr... missingValue" />
+                <marker date="1515058505619" expanded="true" signature="832:860" ph="select passw... usrinfo" />
+                <marker date="1515058505619" expanded="true" signature="832:873" ph="select passw... usrinfo" />
+                <marker date="1515058505619" expanded="true" signature="832:875" ph="select passw... usrinfo" />
+                <marker date="1515058505619" expanded="true" signature="832:885" ph="select passw... usrinfo" />
+                <marker date="1515058505619" expanded="true" signature="832:886" ph="select passw... usrinfo" />
+                <marker date="1515058505619" expanded="true" signature="832:888" ph="select passw... usrinfo" />
+                <marker date="1515058505619" expanded="true" signature="832:889" ph="select passw... usrinfo" />
+                <marker date="1515058505619" expanded="true" signature="1379:1423" ph="select passw... usrinfo" />
+                <marker date="1515058505619" expanded="true" signature="1379:1425" ph="select name,... usrinfo" />
+                <marker date="1515058505619" expanded="true" signature="1379:1438" ph="select name,... usrinfo" />
+                <marker date="1515058505619" expanded="true" signature="1379:1439" ph="select name,... usrinfo" />
+                <marker date="1515058505619" expanded="true" signature="1967:2024" ph="select * fro... usrinfo" />
+                <marker date="1515058505619" expanded="true" signature="2252:2431" ph="insert into usrinfo... " />
+                <marker date="1515058505619" expanded="true" signature="2702:2759" ph="select * fro... usrinfo" />
+                <marker date="1515058505619" expanded="true" signature="2988:3012" ph="update usrInfo... " />
+                <marker date="1515058505619" expanded="true" signature="2988:3031" ph="update usrInfo... " />
+                <marker date="1515058505619" expanded="true" signature="2988:3102" ph="update usrinfo... " />
+                <marker date="1515058505619" expanded="true" signature="2988:3128" ph="update usrInfo... " />
+                <marker date="1515058505619" expanded="true" signature="2988:3139" ph="update usrinfo... " />
+                <marker date="1515058505619" expanded="true" signature="2988:3141" ph="update usrinfo... " />
+                <marker date="1515058505619" expanded="true" signature="2988:3162" ph="update usrinfo... " />
+                <marker date="1515058505619" expanded="true" signature="2988:3163" ph="update usrInfo... " />
+                <marker date="1515058505619" expanded="true" signature="3425:3459" ph="select uid f... friends" />
+                <marker date="1515058505619" expanded="true" signature="3425:3461" ph="select uid f... friends" />
+                <marker date="1515058505619" expanded="true" signature="3425:3471" ph="select uid f... friends" />
+                <marker date="1515058505619" expanded="true" signature="3425:3474" ph="select * fro... friends" />
+                <marker date="1515058505619" expanded="true" signature="3425:3475" ph="select uid f... friends" />
+                <marker date="1515058505619" expanded="true" signature="4280:4397" ph="insert into friends... " />
+                <marker date="1515058505619" expanded="true" signature="4424:4543" ph="insert into friends... " />
+                <marker date="1515058505619" expanded="true" signature="4790:4850" ph="DELETE FROM friends... " />
+                <marker date="1515058505619" expanded="true" signature="5109:5173" ph="update friends... " />
+                <marker date="1515058505619" expanded="true" signature="5109:5174" ph="update friends... " />
+                <marker date="1515058505619" expanded="true" signature="5416:5454" ph="select * fro... message" />
+                <marker date="1515058505619" expanded="true" signature="5416:5497" ph="select * fro... message" />
+                <marker date="1515058505619" expanded="true" signature="5416:5499" ph="select * fro... message" />
+                <marker date="1515058505619" expanded="true" signature="5416:5500" ph="select * fro... message" />
+                <marker date="1515058505619" expanded="true" signature="5416:5510" ph="select * fro... message" />
+                <marker date="1515058505619" expanded="true" signature="5416:5516" ph="select * fro... message" />
+                <marker date="1515058505619" expanded="true" signature="5416:5517" ph="select * fro... message" />
+                <marker date="1515058505619" expanded="true" signature="5416:5583" ph="select * fro... message" />
+                <marker date="1515058505619" expanded="true" signature="5416:5594" ph="select * fro... message" />
+                <marker date="1515058505619" expanded="true" signature="5416:5595" ph="select * fro... message" />
+                <marker date="1515058505619" expanded="true" signature="5416:5617" ph="select * fro... message" />
+                <marker date="1515058505619" expanded="true" signature="5416:5624" ph="select * fro... message" />
+                <marker date="1515058505619" expanded="true" signature="6484:6696" ph="insert into message... " />
+                <marker date="1515058505619" expanded="true" signature="6894:6908" ph="select count... " />
+                <marker date="1515058505619" expanded="true" signature="6894:6920" ph="select count... " />
+                <marker date="1515058505619" expanded="true" signature="6894:6939" ph="select id fr... missingValue" />
               </folding>
             </state>
           </provider>
@@ -88,7 +97,7 @@
         <entry file="file://$PROJECT_DIR$/src/model/Friend.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="54">
-              <caret line="3" column="22" lean-forward="true" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+              <caret line="3" column="22" lean-forward="false" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -97,7 +106,7 @@
       <file leaf-file-name="Test.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
+            <state relative-caret-position="162">
               <caret line="14" column="44" lean-forward="false" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -109,8 +118,8 @@
       <file leaf-file-name="Message.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/model/Message.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            <state relative-caret-position="144">
+              <caret line="10" column="20" lean-forward="false" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -121,8 +130,8 @@
       <file leaf-file-name="MessageType.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/model/MessageType.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="14" column="48" lean-forward="false" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
+            <state relative-caret-position="324">
+              <caret line="18" column="42" lean-forward="false" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
               <folding />
             </state>
           </provider>
@@ -132,7 +141,7 @@
         <entry file="file://$PROJECT_DIR$/src/model/UsrInfo.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
-              <caret line="10" column="31" lean-forward="true" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+              <caret line="10" column="31" lean-forward="false" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -141,8 +150,8 @@
       <file leaf-file-name="TCPServer.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/server/TCPServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="486">
-              <caret line="27" column="26" lean-forward="true" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
+            <state relative-caret-position="161">
+              <caret line="230" column="25" lean-forward="true" selection-start-line="230" selection-start-column="25" selection-end-line="230" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -150,24 +159,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Start.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Start.java">
+      <file leaf-file-name="ByteUtils.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/tools/ByteUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="3" column="42" lean-forward="false" selection-start-line="3" selection-start-column="42" selection-end-line="3" selection-end-column="42" />
+            <state relative-caret-position="216">
+              <caret line="12" column="59" lean-forward="false" selection-start-line="12" selection-start-column="59" selection-end-line="12" selection-end-column="59" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JsonUtils.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/data/Json/JsonUtils.java">
+      <file leaf-file-name="Start.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/runable/Start.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="23" column="23" lean-forward="true" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
+            <state relative-caret-position="72">
+              <caret line="9" column="20" lean-forward="false" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#946#962#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -198,10 +206,12 @@
         <option value="$PROJECT_DIR$/src/data/Json/JsonUtils.java" />
         <option value="$PROJECT_DIR$/src/model/Message.java" />
         <option value="$PROJECT_DIR$/src/model/UsrInfo.java" />
-        <option value="$PROJECT_DIR$/src/model/MessageType.java" />
         <option value="$PROJECT_DIR$/src/model/Friend.java" />
-        <option value="$PROJECT_DIR$/src/data/mysql/MysqlDatabase.java" />
         <option value="$PROJECT_DIR$/src/Start.java" />
+        <option value="$PROJECT_DIR$/src/runable/Start.java" />
+        <option value="$PROJECT_DIR$/src/tools/ByteUtils.java" />
+        <option value="$PROJECT_DIR$/src/data/mysql/MysqlDatabase.java" />
+        <option value="$PROJECT_DIR$/src/model/MessageType.java" />
         <option value="$PROJECT_DIR$/src/server/TCPServer.java" />
       </list>
     </option>
@@ -232,45 +242,13 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="AndroidView" />
       <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
-            <path>
-              <item name="chat-server" type="b2602c69:ProjectViewProjectNode" />
-              <item name="chat-server" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="chat-server" type="b2602c69:ProjectViewProjectNode" />
-              <item name="chat-server" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="chat-server" type="b2602c69:ProjectViewProjectNode" />
-              <item name="chat-server" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="production" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="chat-server" type="b2602c69:ProjectViewProjectNode" />
-              <item name="chat-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="chat-server" type="b2602c69:ProjectViewProjectNode" />
-              <item name="chat-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="chat-server" type="b2602c69:ProjectViewProjectNode" />
-              <item name="chat-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-            </path>
             <path>
               <item name="chat-server" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
@@ -436,7 +414,9 @@
       <workItem from="1512785563264" duration="3665000" />
       <workItem from="1512870834187" duration="47000" />
       <workItem from="1513857360194" duration="5485000" />
-      <workItem from="1514791818207" duration="7668000" />
+      <workItem from="1514791818207" duration="8386000" />
+      <workItem from="1515052881912" duration="6116000" />
+      <workItem from="1515062674232" duration="1570000" />
     </task>
     <task id="LOCAL-00001" summary="13">
       <created>1514799471009</created>
@@ -452,11 +432,18 @@
       <option name="project" value="LOCAL" />
       <updated>1514799486645</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="13">
+      <created>1514799498513</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1514799498513</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22334000" />
+    <option name="totallyTimeSpent" value="30738000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1844" height="1096" extended-state="6" />
@@ -468,8 +455,8 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960325" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960325" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -479,8 +466,8 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -507,6 +494,153 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/server/TCPServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3654">
+          <caret line="220" column="38" lean-forward="true" selection-start-line="220" selection-start-column="38" selection-end-line="220" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/data/TalkService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="24" lean-forward="false" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/data/mysql/MysqlDatabase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2358">
+          <caret line="131" column="19" lean-forward="true" selection-start-line="131" selection-start-column="19" selection-end-line="131" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1515058505619" expanded="true" signature="832:860" ph="select passw... usrinfo" />
+            <marker date="1515058505619" expanded="true" signature="832:873" ph="select passw... usrinfo" />
+            <marker date="1515058505619" expanded="true" signature="832:875" ph="select passw... usrinfo" />
+            <marker date="1515058505619" expanded="true" signature="832:885" ph="select passw... usrinfo" />
+            <marker date="1515058505619" expanded="true" signature="832:886" ph="select passw... usrinfo" />
+            <marker date="1515058505619" expanded="true" signature="832:888" ph="select passw... usrinfo" />
+            <marker date="1515058505619" expanded="true" signature="832:889" ph="select passw... usrinfo" />
+            <marker date="1515058505619" expanded="true" signature="1379:1423" ph="select passw... usrinfo" />
+            <marker date="1515058505619" expanded="true" signature="1379:1425" ph="select name,... usrinfo" />
+            <marker date="1515058505619" expanded="true" signature="1379:1438" ph="select name,... usrinfo" />
+            <marker date="1515058505619" expanded="true" signature="1379:1439" ph="select name,... usrinfo" />
+            <marker date="1515058505619" expanded="true" signature="1967:2024" ph="select * fro... usrinfo" />
+            <marker date="1515058505619" expanded="true" signature="2252:2431" ph="insert into usrinfo... " />
+            <marker date="1515058505619" expanded="true" signature="2702:2759" ph="select * fro... usrinfo" />
+            <marker date="1515058505619" expanded="true" signature="2988:3012" ph="update usrInfo... " />
+            <marker date="1515058505619" expanded="true" signature="2988:3031" ph="update usrInfo... " />
+            <marker date="1515058505619" expanded="true" signature="2988:3102" ph="update usrinfo... " />
+            <marker date="1515058505619" expanded="true" signature="2988:3128" ph="update usrInfo... " />
+            <marker date="1515058505619" expanded="true" signature="2988:3139" ph="update usrinfo... " />
+            <marker date="1515058505619" expanded="true" signature="2988:3141" ph="update usrinfo... " />
+            <marker date="1515058505619" expanded="true" signature="2988:3162" ph="update usrinfo... " />
+            <marker date="1515058505619" expanded="true" signature="2988:3163" ph="update usrInfo... " />
+            <marker date="1515058505619" expanded="true" signature="3425:3459" ph="select uid f... friends" />
+            <marker date="1515058505619" expanded="true" signature="3425:3461" ph="select uid f... friends" />
+            <marker date="1515058505619" expanded="true" signature="3425:3471" ph="select uid f... friends" />
+            <marker date="1515058505619" expanded="true" signature="3425:3474" ph="select * fro... friends" />
+            <marker date="1515058505619" expanded="true" signature="3425:3475" ph="select uid f... friends" />
+            <marker date="1515058505619" expanded="true" signature="4280:4397" ph="insert into friends... " />
+            <marker date="1515058505619" expanded="true" signature="4424:4543" ph="insert into friends... " />
+            <marker date="1515058505619" expanded="true" signature="4790:4850" ph="DELETE FROM friends... " />
+            <marker date="1515058505619" expanded="true" signature="5109:5173" ph="update friends... " />
+            <marker date="1515058505619" expanded="true" signature="5109:5174" ph="update friends... " />
+            <marker date="1515058505619" expanded="true" signature="5416:5454" ph="select * fro... message" />
+            <marker date="1515058505619" expanded="true" signature="5416:5497" ph="select * fro... message" />
+            <marker date="1515058505619" expanded="true" signature="5416:5499" ph="select * fro... message" />
+            <marker date="1515058505619" expanded="true" signature="5416:5500" ph="select * fro... message" />
+            <marker date="1515058505619" expanded="true" signature="5416:5510" ph="select * fro... message" />
+            <marker date="1515058505619" expanded="true" signature="5416:5516" ph="select * fro... message" />
+            <marker date="1515058505619" expanded="true" signature="5416:5517" ph="select * fro... message" />
+            <marker date="1515058505619" expanded="true" signature="5416:5583" ph="select * fro... message" />
+            <marker date="1515058505619" expanded="true" signature="5416:5594" ph="select * fro... message" />
+            <marker date="1515058505619" expanded="true" signature="5416:5595" ph="select * fro... message" />
+            <marker date="1515058505619" expanded="true" signature="5416:5617" ph="select * fro... message" />
+            <marker date="1515058505619" expanded="true" signature="5416:5624" ph="select * fro... message" />
+            <marker date="1515058505619" expanded="true" signature="6484:6696" ph="insert into message... " />
+            <marker date="1515058505619" expanded="true" signature="6894:6908" ph="select count... " />
+            <marker date="1515058505619" expanded="true" signature="6894:6920" ph="select count... " />
+            <marker date="1515058505619" expanded="true" signature="6894:6939" ph="select id fr... missingValue" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/Friend.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="22" lean-forward="true" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="14" column="44" lean-forward="false" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/Message.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/MessageType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="48" lean-forward="false" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/UsrInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="31" lean-forward="true" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/runable/Start.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="42" lean-forward="false" selection-start-line="3" selection-start-column="42" selection-end-line="3" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tools/JsonUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="23" column="23" lean-forward="true" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/server/TCPServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="21" lean-forward="true" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/data/TalkService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
@@ -555,7 +689,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="9" column="31" lean-forward="false" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -565,54 +698,54 @@
           <caret line="18" column="28" lean-forward="true" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3522#3530#0" expanded="true" />
-            <marker date="1514799225699" expanded="true" signature="832:860" ph="select passw... usrinfo" />
-            <marker date="1514799225699" expanded="true" signature="832:873" ph="select passw... usrinfo" />
-            <marker date="1514799225699" expanded="true" signature="832:875" ph="select passw... usrinfo" />
-            <marker date="1514799225699" expanded="true" signature="832:885" ph="select passw... usrinfo" />
-            <marker date="1514799225699" expanded="true" signature="832:886" ph="select passw... usrinfo" />
-            <marker date="1514799225699" expanded="true" signature="832:888" ph="select passw... usrinfo" />
-            <marker date="1514799225699" expanded="true" signature="832:889" ph="select passw... usrinfo" />
-            <marker date="1514799225699" expanded="true" signature="1379:1423" ph="select passw... usrinfo" />
-            <marker date="1514799225699" expanded="true" signature="1379:1425" ph="select name,... usrinfo" />
-            <marker date="1514799225699" expanded="true" signature="1379:1438" ph="select name,... usrinfo" />
-            <marker date="1514799225699" expanded="true" signature="1379:1439" ph="select name,... usrinfo" />
-            <marker date="1514799225699" expanded="true" signature="1967:2024" ph="select * fro... usrinfo" />
-            <marker date="1514799225699" expanded="true" signature="2252:2431" ph="insert into usrinfo... " />
-            <marker date="1514799225699" expanded="true" signature="2702:2759" ph="select * fro... usrinfo" />
-            <marker date="1514799225699" expanded="true" signature="2988:3012" ph="update usrInfo... " />
-            <marker date="1514799225699" expanded="true" signature="2988:3031" ph="update usrInfo... " />
-            <marker date="1514799225699" expanded="true" signature="2988:3102" ph="update usrinfo... " />
-            <marker date="1514799225699" expanded="true" signature="2988:3128" ph="update usrInfo... " />
-            <marker date="1514799225699" expanded="true" signature="2988:3139" ph="update usrinfo... " />
-            <marker date="1514799225699" expanded="true" signature="2988:3141" ph="update usrinfo... " />
-            <marker date="1514799225699" expanded="true" signature="2988:3162" ph="update usrinfo... " />
-            <marker date="1514799225699" expanded="true" signature="2988:3163" ph="update usrInfo... " />
-            <marker date="1514799225699" expanded="true" signature="3425:3459" ph="select uid f... friends" />
-            <marker date="1514799225699" expanded="true" signature="3425:3461" ph="select uid f... friends" />
-            <marker date="1514799225699" expanded="true" signature="3425:3471" ph="select uid f... friends" />
-            <marker date="1514799225699" expanded="true" signature="3425:3474" ph="select * fro... friends" />
-            <marker date="1514799225699" expanded="true" signature="3425:3475" ph="select uid f... friends" />
-            <marker date="1514799225699" expanded="true" signature="4280:4397" ph="insert into friends... " />
-            <marker date="1514799225699" expanded="true" signature="4424:4543" ph="insert into friends... " />
-            <marker date="1514799225699" expanded="true" signature="4790:4850" ph="DELETE FROM friends... " />
-            <marker date="1514799225699" expanded="true" signature="5109:5173" ph="update friends... " />
-            <marker date="1514799225699" expanded="true" signature="5109:5174" ph="update friends... " />
-            <marker date="1514799225699" expanded="true" signature="5416:5454" ph="select * fro... message" />
-            <marker date="1514799225699" expanded="true" signature="5416:5497" ph="select * fro... message" />
-            <marker date="1514799225699" expanded="true" signature="5416:5499" ph="select * fro... message" />
-            <marker date="1514799225699" expanded="true" signature="5416:5500" ph="select * fro... message" />
-            <marker date="1514799225699" expanded="true" signature="5416:5510" ph="select * fro... message" />
-            <marker date="1514799225699" expanded="true" signature="5416:5516" ph="select * fro... message" />
-            <marker date="1514799225699" expanded="true" signature="5416:5517" ph="select * fro... message" />
-            <marker date="1514799225699" expanded="true" signature="5416:5583" ph="select * fro... message" />
-            <marker date="1514799225699" expanded="true" signature="5416:5594" ph="select * fro... message" />
-            <marker date="1514799225699" expanded="true" signature="5416:5595" ph="select * fro... message" />
-            <marker date="1514799225699" expanded="true" signature="5416:5617" ph="select * fro... message" />
-            <marker date="1514799225699" expanded="true" signature="5416:5624" ph="select * fro... message" />
-            <marker date="1514799225699" expanded="true" signature="6482:6496" ph="select count... " />
-            <marker date="1514799225699" expanded="true" signature="6482:6508" ph="select count... " />
-            <marker date="1514799225699" expanded="true" signature="6482:6527" ph="select id fr... missingValue" />
+            <marker date="1515058505619" expanded="true" signature="832:860" ph="select passw... usrinfo" />
+            <marker date="1515058505619" expanded="true" signature="832:873" ph="select passw... usrinfo" />
+            <marker date="1515058505619" expanded="true" signature="832:875" ph="select passw... usrinfo" />
+            <marker date="1515058505619" expanded="true" signature="832:885" ph="select passw... usrinfo" />
+            <marker date="1515058505619" expanded="true" signature="832:886" ph="select passw... usrinfo" />
+            <marker date="1515058505619" expanded="true" signature="832:888" ph="select passw... usrinfo" />
+            <marker date="1515058505619" expanded="true" signature="832:889" ph="select passw... usrinfo" />
+            <marker date="1515058505619" expanded="true" signature="1379:1423" ph="select passw... usrinfo" />
+            <marker date="1515058505619" expanded="true" signature="1379:1425" ph="select name,... usrinfo" />
+            <marker date="1515058505619" expanded="true" signature="1379:1438" ph="select name,... usrinfo" />
+            <marker date="1515058505619" expanded="true" signature="1379:1439" ph="select name,... usrinfo" />
+            <marker date="1515058505619" expanded="true" signature="1967:2024" ph="select * fro... usrinfo" />
+            <marker date="1515058505619" expanded="true" signature="2252:2431" ph="insert into usrinfo... " />
+            <marker date="1515058505619" expanded="true" signature="2702:2759" ph="select * fro... usrinfo" />
+            <marker date="1515058505619" expanded="true" signature="2988:3012" ph="update usrInfo... " />
+            <marker date="1515058505619" expanded="true" signature="2988:3031" ph="update usrInfo... " />
+            <marker date="1515058505619" expanded="true" signature="2988:3102" ph="update usrinfo... " />
+            <marker date="1515058505619" expanded="true" signature="2988:3128" ph="update usrInfo... " />
+            <marker date="1515058505619" expanded="true" signature="2988:3139" ph="update usrinfo... " />
+            <marker date="1515058505619" expanded="true" signature="2988:3141" ph="update usrinfo... " />
+            <marker date="1515058505619" expanded="true" signature="2988:3162" ph="update usrinfo... " />
+            <marker date="1515058505619" expanded="true" signature="2988:3163" ph="update usrInfo... " />
+            <marker date="1515058505619" expanded="true" signature="3425:3459" ph="select uid f... friends" />
+            <marker date="1515058505619" expanded="true" signature="3425:3461" ph="select uid f... friends" />
+            <marker date="1515058505619" expanded="true" signature="3425:3471" ph="select uid f... friends" />
+            <marker date="1515058505619" expanded="true" signature="3425:3474" ph="select * fro... friends" />
+            <marker date="1515058505619" expanded="true" signature="3425:3475" ph="select uid f... friends" />
+            <marker date="1515058505619" expanded="true" signature="4280:4397" ph="insert into friends... " />
+            <marker date="1515058505619" expanded="true" signature="4424:4543" ph="insert into friends... " />
+            <marker date="1515058505619" expanded="true" signature="4790:4850" ph="DELETE FROM friends... " />
+            <marker date="1515058505619" expanded="true" signature="5109:5173" ph="update friends... " />
+            <marker date="1515058505619" expanded="true" signature="5109:5174" ph="update friends... " />
+            <marker date="1515058505619" expanded="true" signature="5416:5454" ph="select * fro... message" />
+            <marker date="1515058505619" expanded="true" signature="5416:5497" ph="select * fro... message" />
+            <marker date="1515058505619" expanded="true" signature="5416:5499" ph="select * fro... message" />
+            <marker date="1515058505619" expanded="true" signature="5416:5500" ph="select * fro... message" />
+            <marker date="1515058505619" expanded="true" signature="5416:5510" ph="select * fro... message" />
+            <marker date="1515058505619" expanded="true" signature="5416:5516" ph="select * fro... message" />
+            <marker date="1515058505619" expanded="true" signature="5416:5517" ph="select * fro... message" />
+            <marker date="1515058505619" expanded="true" signature="5416:5583" ph="select * fro... message" />
+            <marker date="1515058505619" expanded="true" signature="5416:5594" ph="select * fro... message" />
+            <marker date="1515058505619" expanded="true" signature="5416:5595" ph="select * fro... message" />
+            <marker date="1515058505619" expanded="true" signature="5416:5617" ph="select * fro... message" />
+            <marker date="1515058505619" expanded="true" signature="5416:5624" ph="select * fro... message" />
+            <marker date="1515058505619" expanded="true" signature="6484:6696" ph="insert into message... " />
+            <marker date="1515058505619" expanded="true" signature="6894:6908" ph="select count... " />
+            <marker date="1515058505619" expanded="true" signature="6894:6920" ph="select count... " />
+            <marker date="1515058505619" expanded="true" signature="6894:6939" ph="select id fr... missingValue" />
           </folding>
         </state>
       </provider>
@@ -665,7 +798,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="9" column="31" lean-forward="false" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -675,54 +807,54 @@
           <caret line="79" column="31" lean-forward="false" selection-start-line="79" selection-start-column="31" selection-end-line="79" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3522#3530#0" expanded="true" />
-            <marker date="1514799225699" expanded="true" signature="832:860" ph="select passw... usrinfo" />
-            <marker date="1514799225699" expanded="true" signature="832:873" ph="select passw... usrinfo" />
-            <marker date="1514799225699" expanded="true" signature="832:875" ph="select passw... usrinfo" />
-            <marker date="1514799225699" expanded="true" signature="832:885" ph="select passw... usrinfo" />
-            <marker date="1514799225699" expanded="true" signature="832:886" ph="select passw... usrinfo" />
-            <marker date="1514799225699" expanded="true" signature="832:888" ph="select passw... usrinfo" />
-            <marker date="1514799225699" expanded="true" signature="832:889" ph="select passw... usrinfo" />
-            <marker date="1514799225699" expanded="true" signature="1379:1423" ph="select passw... usrinfo" />
-            <marker date="1514799225699" expanded="true" signature="1379:1425" ph="select name,... usrinfo" />
-            <marker date="1514799225699" expanded="true" signature="1379:1438" ph="select name,... usrinfo" />
-            <marker date="1514799225699" expanded="true" signature="1379:1439" ph="select name,... usrinfo" />
-            <marker date="1514799225699" expanded="true" signature="1967:2024" ph="select * fro... usrinfo" />
-            <marker date="1514799225699" expanded="true" signature="2252:2431" ph="insert into usrinfo... " />
-            <marker date="1514799225699" expanded="true" signature="2702:2759" ph="select * fro... usrinfo" />
-            <marker date="1514799225699" expanded="true" signature="2988:3012" ph="update usrInfo... " />
-            <marker date="1514799225699" expanded="true" signature="2988:3031" ph="update usrInfo... " />
-            <marker date="1514799225699" expanded="true" signature="2988:3102" ph="update usrinfo... " />
-            <marker date="1514799225699" expanded="true" signature="2988:3128" ph="update usrInfo... " />
-            <marker date="1514799225699" expanded="true" signature="2988:3139" ph="update usrinfo... " />
-            <marker date="1514799225699" expanded="true" signature="2988:3141" ph="update usrinfo... " />
-            <marker date="1514799225699" expanded="true" signature="2988:3162" ph="update usrinfo... " />
-            <marker date="1514799225699" expanded="true" signature="2988:3163" ph="update usrInfo... " />
-            <marker date="1514799225699" expanded="true" signature="3425:3459" ph="select uid f... friends" />
-            <marker date="1514799225699" expanded="true" signature="3425:3461" ph="select uid f... friends" />
-            <marker date="1514799225699" expanded="true" signature="3425:3471" ph="select uid f... friends" />
-            <marker date="1514799225699" expanded="true" signature="3425:3474" ph="select * fro... friends" />
-            <marker date="1514799225699" expanded="true" signature="3425:3475" ph="select uid f... friends" />
-            <marker date="1514799225699" expanded="true" signature="4280:4397" ph="insert into friends... " />
-            <marker date="1514799225699" expanded="true" signature="4424:4543" ph="insert into friends... " />
-            <marker date="1514799225699" expanded="true" signature="4790:4850" ph="DELETE FROM friends... " />
-            <marker date="1514799225699" expanded="true" signature="5109:5173" ph="update friends... " />
-            <marker date="1514799225699" expanded="true" signature="5109:5174" ph="update friends... " />
-            <marker date="1514799225699" expanded="true" signature="5416:5454" ph="select * fro... message" />
-            <marker date="1514799225699" expanded="true" signature="5416:5497" ph="select * fro... message" />
-            <marker date="1514799225699" expanded="true" signature="5416:5499" ph="select * fro... message" />
-            <marker date="1514799225699" expanded="true" signature="5416:5500" ph="select * fro... message" />
-            <marker date="1514799225699" expanded="true" signature="5416:5510" ph="select * fro... message" />
-            <marker date="1514799225699" expanded="true" signature="5416:5516" ph="select * fro... message" />
-            <marker date="1514799225699" expanded="true" signature="5416:5517" ph="select * fro... message" />
-            <marker date="1514799225699" expanded="true" signature="5416:5583" ph="select * fro... message" />
-            <marker date="1514799225699" expanded="true" signature="5416:5594" ph="select * fro... message" />
-            <marker date="1514799225699" expanded="true" signature="5416:5595" ph="select * fro... message" />
-            <marker date="1514799225699" expanded="true" signature="5416:5617" ph="select * fro... message" />
-            <marker date="1514799225699" expanded="true" signature="5416:5624" ph="select * fro... message" />
-            <marker date="1514799225699" expanded="true" signature="6482:6496" ph="select count... " />
-            <marker date="1514799225699" expanded="true" signature="6482:6508" ph="select count... " />
-            <marker date="1514799225699" expanded="true" signature="6482:6527" ph="select id fr... missingValue" />
+            <marker date="1515058505619" expanded="true" signature="832:860" ph="select passw... usrinfo" />
+            <marker date="1515058505619" expanded="true" signature="832:873" ph="select passw... usrinfo" />
+            <marker date="1515058505619" expanded="true" signature="832:875" ph="select passw... usrinfo" />
+            <marker date="1515058505619" expanded="true" signature="832:885" ph="select passw... usrinfo" />
+            <marker date="1515058505619" expanded="true" signature="832:886" ph="select passw... usrinfo" />
+            <marker date="1515058505619" expanded="true" signature="832:888" ph="select passw... usrinfo" />
+            <marker date="1515058505619" expanded="true" signature="832:889" ph="select passw... usrinfo" />
+            <marker date="1515058505619" expanded="true" signature="1379:1423" ph="select passw... usrinfo" />
+            <marker date="1515058505619" expanded="true" signature="1379:1425" ph="select name,... usrinfo" />
+            <marker date="1515058505619" expanded="true" signature="1379:1438" ph="select name,... usrinfo" />
+            <marker date="1515058505619" expanded="true" signature="1379:1439" ph="select name,... usrinfo" />
+            <marker date="1515058505619" expanded="true" signature="1967:2024" ph="select * fro... usrinfo" />
+            <marker date="1515058505619" expanded="true" signature="2252:2431" ph="insert into usrinfo... " />
+            <marker date="1515058505619" expanded="true" signature="2702:2759" ph="select * fro... usrinfo" />
+            <marker date="1515058505619" expanded="true" signature="2988:3012" ph="update usrInfo... " />
+            <marker date="1515058505619" expanded="true" signature="2988:3031" ph="update usrInfo... " />
+            <marker date="1515058505619" expanded="true" signature="2988:3102" ph="update usrinfo... " />
+            <marker date="1515058505619" expanded="true" signature="2988:3128" ph="update usrInfo... " />
+            <marker date="1515058505619" expanded="true" signature="2988:3139" ph="update usrinfo... " />
+            <marker date="1515058505619" expanded="true" signature="2988:3141" ph="update usrinfo... " />
+            <marker date="1515058505619" expanded="true" signature="2988:3162" ph="update usrinfo... " />
+            <marker date="1515058505619" expanded="true" signature="2988:3163" ph="update usrInfo... " />
+            <marker date="1515058505619" expanded="true" signature="3425:3459" ph="select uid f... friends" />
+            <marker date="1515058505619" expanded="true" signature="3425:3461" ph="select uid f... friends" />
+            <marker date="1515058505619" expanded="true" signature="3425:3471" ph="select uid f... friends" />
+            <marker date="1515058505619" expanded="true" signature="3425:3474" ph="select * fro... friends" />
+            <marker date="1515058505619" expanded="true" signature="3425:3475" ph="select uid f... friends" />
+            <marker date="1515058505619" expanded="true" signature="4280:4397" ph="insert into friends... " />
+            <marker date="1515058505619" expanded="true" signature="4424:4543" ph="insert into friends... " />
+            <marker date="1515058505619" expanded="true" signature="4790:4850" ph="DELETE FROM friends... " />
+            <marker date="1515058505619" expanded="true" signature="5109:5173" ph="update friends... " />
+            <marker date="1515058505619" expanded="true" signature="5109:5174" ph="update friends... " />
+            <marker date="1515058505619" expanded="true" signature="5416:5454" ph="select * fro... message" />
+            <marker date="1515058505619" expanded="true" signature="5416:5497" ph="select * fro... message" />
+            <marker date="1515058505619" expanded="true" signature="5416:5499" ph="select * fro... message" />
+            <marker date="1515058505619" expanded="true" signature="5416:5500" ph="select * fro... message" />
+            <marker date="1515058505619" expanded="true" signature="5416:5510" ph="select * fro... message" />
+            <marker date="1515058505619" expanded="true" signature="5416:5516" ph="select * fro... message" />
+            <marker date="1515058505619" expanded="true" signature="5416:5517" ph="select * fro... message" />
+            <marker date="1515058505619" expanded="true" signature="5416:5583" ph="select * fro... message" />
+            <marker date="1515058505619" expanded="true" signature="5416:5594" ph="select * fro... message" />
+            <marker date="1515058505619" expanded="true" signature="5416:5595" ph="select * fro... message" />
+            <marker date="1515058505619" expanded="true" signature="5416:5617" ph="select * fro... message" />
+            <marker date="1515058505619" expanded="true" signature="5416:5624" ph="select * fro... message" />
+            <marker date="1515058505619" expanded="true" signature="6484:6696" ph="insert into message... " />
+            <marker date="1515058505619" expanded="true" signature="6894:6908" ph="select count... " />
+            <marker date="1515058505619" expanded="true" signature="6894:6920" ph="select count... " />
+            <marker date="1515058505619" expanded="true" signature="6894:6939" ph="select id fr... missingValue" />
           </folding>
         </state>
       </provider>
@@ -775,7 +907,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="9" column="31" lean-forward="false" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -785,54 +916,54 @@
           <caret line="79" column="31" lean-forward="false" selection-start-line="79" selection-start-column="31" selection-end-line="79" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3522#3530#0" expanded="true" />
-            <marker date="1514799225699" expanded="true" signature="832:860" ph="select passw... usrinfo" />
-            <marker date="1514799225699" expanded="true" signature="832:873" ph="select passw... usrinfo" />
-            <marker date="1514799225699" expanded="true" signature="832:875" ph="select passw... usrinfo" />
-            <marker date="1514799225699" expanded="true" signature="832:885" ph="select passw... usrinfo" />
-            <marker date="1514799225699" expanded="true" signature="832:886" ph="select passw... usrinfo" />
-            <marker date="1514799225699" expanded="true" signature="832:888" ph="select passw... usrinfo" />
-            <marker date="1514799225699" expanded="true" signature="832:889" ph="select passw... usrinfo" />
-            <marker date="1514799225699" expanded="true" signature="1379:1423" ph="select passw... usrinfo" />
-            <marker date="1514799225699" expanded="true" signature="1379:1425" ph="select name,... usrinfo" />
-            <marker date="1514799225699" expanded="true" signature="1379:1438" ph="select name,... usrinfo" />
-            <marker date="1514799225699" expanded="true" signature="1379:1439" ph="select name,... usrinfo" />
-            <marker date="1514799225699" expanded="true" signature="1967:2024" ph="select * fro... usrinfo" />
-            <marker date="1514799225699" expanded="true" signature="2252:2431" ph="insert into usrinfo... " />
-            <marker date="1514799225699" expanded="true" signature="2702:2759" ph="select * fro... usrinfo" />
-            <marker date="1514799225699" expanded="true" signature="2988:3012" ph="update usrInfo... " />
-            <marker date="1514799225699" expanded="true" signature="2988:3031" ph="update usrInfo... " />
-            <marker date="1514799225699" expanded="true" signature="2988:3102" ph="update usrinfo... " />
-            <marker date="1514799225699" expanded="true" signature="2988:3128" ph="update usrInfo... " />
-            <marker date="1514799225699" expanded="true" signature="2988:3139" ph="update usrinfo... " />
-            <marker date="1514799225699" expanded="true" signature="2988:3141" ph="update usrinfo... " />
-            <marker date="1514799225699" expanded="true" signature="2988:3162" ph="update usrinfo... " />
-            <marker date="1514799225699" expanded="true" signature="2988:3163" ph="update usrInfo... " />
-            <marker date="1514799225699" expanded="true" signature="3425:3459" ph="select uid f... friends" />
-            <marker date="1514799225699" expanded="true" signature="3425:3461" ph="select uid f... friends" />
-            <marker date="1514799225699" expanded="true" signature="3425:3471" ph="select uid f... friends" />
-            <marker date="1514799225699" expanded="true" signature="3425:3474" ph="select * fro... friends" />
-            <marker date="1514799225699" expanded="true" signature="3425:3475" ph="select uid f... friends" />
-            <marker date="1514799225699" expanded="true" signature="4280:4397" ph="insert into friends... " />
-            <marker date="1514799225699" expanded="true" signature="4424:4543" ph="insert into friends... " />
-            <marker date="1514799225699" expanded="true" signature="4790:4850" ph="DELETE FROM friends... " />
-            <marker date="1514799225699" expanded="true" signature="5109:5173" ph="update friends... " />
-            <marker date="1514799225699" expanded="true" signature="5109:5174" ph="update friends... " />
-            <marker date="1514799225699" expanded="true" signature="5416:5454" ph="select * fro... message" />
-            <marker date="1514799225699" expanded="true" signature="5416:5497" ph="select * fro... message" />
-            <marker date="1514799225699" expanded="true" signature="5416:5499" ph="select * fro... message" />
-            <marker date="1514799225699" expanded="true" signature="5416:5500" ph="select * fro... message" />
-            <marker date="1514799225699" expanded="true" signature="5416:5510" ph="select * fro... message" />
-            <marker date="1514799225699" expanded="true" signature="5416:5516" ph="select * fro... message" />
-            <marker date="1514799225699" expanded="true" signature="5416:5517" ph="select * fro... message" />
-            <marker date="1514799225699" expanded="true" signature="5416:5583" ph="select * fro... message" />
-            <marker date="1514799225699" expanded="true" signature="5416:5594" ph="select * fro... message" />
-            <marker date="1514799225699" expanded="true" signature="5416:5595" ph="select * fro... message" />
-            <marker date="1514799225699" expanded="true" signature="5416:5617" ph="select * fro... message" />
-            <marker date="1514799225699" expanded="true" signature="5416:5624" ph="select * fro... message" />
-            <marker date="1514799225699" expanded="true" signature="6482:6496" ph="select count... " />
-            <marker date="1514799225699" expanded="true" signature="6482:6508" ph="select count... " />
-            <marker date="1514799225699" expanded="true" signature="6482:6527" ph="select id fr... missingValue" />
+            <marker date="1515058505619" expanded="true" signature="832:860" ph="select passw... usrinfo" />
+            <marker date="1515058505619" expanded="true" signature="832:873" ph="select passw... usrinfo" />
+            <marker date="1515058505619" expanded="true" signature="832:875" ph="select passw... usrinfo" />
+            <marker date="1515058505619" expanded="true" signature="832:885" ph="select passw... usrinfo" />
+            <marker date="1515058505619" expanded="true" signature="832:886" ph="select passw... usrinfo" />
+            <marker date="1515058505619" expanded="true" signature="832:888" ph="select passw... usrinfo" />
+            <marker date="1515058505619" expanded="true" signature="832:889" ph="select passw... usrinfo" />
+            <marker date="1515058505619" expanded="true" signature="1379:1423" ph="select passw... usrinfo" />
+            <marker date="1515058505619" expanded="true" signature="1379:1425" ph="select name,... usrinfo" />
+            <marker date="1515058505619" expanded="true" signature="1379:1438" ph="select name,... usrinfo" />
+            <marker date="1515058505619" expanded="true" signature="1379:1439" ph="select name,... usrinfo" />
+            <marker date="1515058505619" expanded="true" signature="1967:2024" ph="select * fro... usrinfo" />
+            <marker date="1515058505619" expanded="true" signature="2252:2431" ph="insert into usrinfo... " />
+            <marker date="1515058505619" expanded="true" signature="2702:2759" ph="select * fro... usrinfo" />
+            <marker date="1515058505619" expanded="true" signature="2988:3012" ph="update usrInfo... " />
+            <marker date="1515058505619" expanded="true" signature="2988:3031" ph="update usrInfo... " />
+            <marker date="1515058505619" expanded="true" signature="2988:3102" ph="update usrinfo... " />
+            <marker date="1515058505619" expanded="true" signature="2988:3128" ph="update usrInfo... " />
+            <marker date="1515058505619" expanded="true" signature="2988:3139" ph="update usrinfo... " />
+            <marker date="1515058505619" expanded="true" signature="2988:3141" ph="update usrinfo... " />
+            <marker date="1515058505619" expanded="true" signature="2988:3162" ph="update usrinfo... " />
+            <marker date="1515058505619" expanded="true" signature="2988:3163" ph="update usrInfo... " />
+            <marker date="1515058505619" expanded="true" signature="3425:3459" ph="select uid f... friends" />
+            <marker date="1515058505619" expanded="true" signature="3425:3461" ph="select uid f... friends" />
+            <marker date="1515058505619" expanded="true" signature="3425:3471" ph="select uid f... friends" />
+            <marker date="1515058505619" expanded="true" signature="3425:3474" ph="select * fro... friends" />
+            <marker date="1515058505619" expanded="true" signature="3425:3475" ph="select uid f... friends" />
+            <marker date="1515058505619" expanded="true" signature="4280:4397" ph="insert into friends... " />
+            <marker date="1515058505619" expanded="true" signature="4424:4543" ph="insert into friends... " />
+            <marker date="1515058505619" expanded="true" signature="4790:4850" ph="DELETE FROM friends... " />
+            <marker date="1515058505619" expanded="true" signature="5109:5173" ph="update friends... " />
+            <marker date="1515058505619" expanded="true" signature="5109:5174" ph="update friends... " />
+            <marker date="1515058505619" expanded="true" signature="5416:5454" ph="select * fro... message" />
+            <marker date="1515058505619" expanded="true" signature="5416:5497" ph="select * fro... message" />
+            <marker date="1515058505619" expanded="true" signature="5416:5499" ph="select * fro... message" />
+            <marker date="1515058505619" expanded="true" signature="5416:5500" ph="select * fro... message" />
+            <marker date="1515058505619" expanded="true" signature="5416:5510" ph="select * fro... message" />
+            <marker date="1515058505619" expanded="true" signature="5416:5516" ph="select * fro... message" />
+            <marker date="1515058505619" expanded="true" signature="5416:5517" ph="select * fro... message" />
+            <marker date="1515058505619" expanded="true" signature="5416:5583" ph="select * fro... message" />
+            <marker date="1515058505619" expanded="true" signature="5416:5594" ph="select * fro... message" />
+            <marker date="1515058505619" expanded="true" signature="5416:5595" ph="select * fro... message" />
+            <marker date="1515058505619" expanded="true" signature="5416:5617" ph="select * fro... message" />
+            <marker date="1515058505619" expanded="true" signature="5416:5624" ph="select * fro... message" />
+            <marker date="1515058505619" expanded="true" signature="6484:6696" ph="insert into message... " />
+            <marker date="1515058505619" expanded="true" signature="6894:6908" ph="select count... " />
+            <marker date="1515058505619" expanded="true" signature="6894:6920" ph="select count... " />
+            <marker date="1515058505619" expanded="true" signature="6894:6939" ph="select id fr... missingValue" />
           </folding>
         </state>
       </provider>
@@ -875,7 +1006,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="9" column="31" lean-forward="false" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -885,54 +1015,54 @@
           <caret line="112" column="0" lean-forward="true" selection-start-line="112" selection-start-column="0" selection-end-line="112" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3522#3530#0" expanded="true" />
-            <marker date="1514799225699" expanded="true" signature="832:860" ph="select passw... usrinfo" />
-            <marker date="1514799225699" expanded="true" signature="832:873" ph="select passw... usrinfo" />
-            <marker date="1514799225699" expanded="true" signature="832:875" ph="select passw... usrinfo" />
-            <marker date="1514799225699" expanded="true" signature="832:885" ph="select passw... usrinfo" />
-            <marker date="1514799225699" expanded="true" signature="832:886" ph="select passw... usrinfo" />
-            <marker date="1514799225699" expanded="true" signature="832:888" ph="select passw... usrinfo" />
-            <marker date="1514799225699" expanded="true" signature="832:889" ph="select passw... usrinfo" />
-            <marker date="1514799225699" expanded="true" signature="1379:1423" ph="select passw... usrinfo" />
-            <marker date="1514799225699" expanded="true" signature="1379:1425" ph="select name,... usrinfo" />
-            <marker date="1514799225699" expanded="true" signature="1379:1438" ph="select name,... usrinfo" />
-            <marker date="1514799225699" expanded="true" signature="1379:1439" ph="select name,... usrinfo" />
-            <marker date="1514799225699" expanded="true" signature="1967:2024" ph="select * fro... usrinfo" />
-            <marker date="1514799225699" expanded="true" signature="2252:2431" ph="insert into usrinfo... " />
-            <marker date="1514799225699" expanded="true" signature="2702:2759" ph="select * fro... usrinfo" />
-            <marker date="1514799225699" expanded="true" signature="2988:3012" ph="update usrInfo... " />
-            <marker date="1514799225699" expanded="true" signature="2988:3031" ph="update usrInfo... " />
-            <marker date="1514799225699" expanded="true" signature="2988:3102" ph="update usrinfo... " />
-            <marker date="1514799225699" expanded="true" signature="2988:3128" ph="update usrInfo... " />
-            <marker date="1514799225699" expanded="true" signature="2988:3139" ph="update usrinfo... " />
-            <marker date="1514799225699" expanded="true" signature="2988:3141" ph="update usrinfo... " />
-            <marker date="1514799225699" expanded="true" signature="2988:3162" ph="update usrinfo... " />
-            <marker date="1514799225699" expanded="true" signature="2988:3163" ph="update usrInfo... " />
-            <marker date="1514799225699" expanded="true" signature="3425:3459" ph="select uid f... friends" />
-            <marker date="1514799225699" expanded="true" signature="3425:3461" ph="select uid f... friends" />
-            <marker date="1514799225699" expanded="true" signature="3425:3471" ph="select uid f... friends" />
-            <marker date="1514799225699" expanded="true" signature="3425:3474" ph="select * fro... friends" />
-            <marker date="1514799225699" expanded="true" signature="3425:3475" ph="select uid f... friends" />
-            <marker date="1514799225699" expanded="true" signature="4280:4397" ph="insert into friends... " />
-            <marker date="1514799225699" expanded="true" signature="4424:4543" ph="insert into friends... " />
-            <marker date="1514799225699" expanded="true" signature="4790:4850" ph="DELETE FROM friends... " />
-            <marker date="1514799225699" expanded="true" signature="5109:5173" ph="update friends... " />
-            <marker date="1514799225699" expanded="true" signature="5109:5174" ph="update friends... " />
-            <marker date="1514799225699" expanded="true" signature="5416:5454" ph="select * fro... message" />
-            <marker date="1514799225699" expanded="true" signature="5416:5497" ph="select * fro... message" />
-            <marker date="1514799225699" expanded="true" signature="5416:5499" ph="select * fro... message" />
-            <marker date="1514799225699" expanded="true" signature="5416:5500" ph="select * fro... message" />
-            <marker date="1514799225699" expanded="true" signature="5416:5510" ph="select * fro... message" />
-            <marker date="1514799225699" expanded="true" signature="5416:5516" ph="select * fro... message" />
-            <marker date="1514799225699" expanded="true" signature="5416:5517" ph="select * fro... message" />
-            <marker date="1514799225699" expanded="true" signature="5416:5583" ph="select * fro... message" />
-            <marker date="1514799225699" expanded="true" signature="5416:5594" ph="select * fro... message" />
-            <marker date="1514799225699" expanded="true" signature="5416:5595" ph="select * fro... message" />
-            <marker date="1514799225699" expanded="true" signature="5416:5617" ph="select * fro... message" />
-            <marker date="1514799225699" expanded="true" signature="5416:5624" ph="select * fro... message" />
-            <marker date="1514799225699" expanded="true" signature="6482:6496" ph="select count... " />
-            <marker date="1514799225699" expanded="true" signature="6482:6508" ph="select count... " />
-            <marker date="1514799225699" expanded="true" signature="6482:6527" ph="select id fr... missingValue" />
+            <marker date="1515058505619" expanded="true" signature="832:860" ph="select passw... usrinfo" />
+            <marker date="1515058505619" expanded="true" signature="832:873" ph="select passw... usrinfo" />
+            <marker date="1515058505619" expanded="true" signature="832:875" ph="select passw... usrinfo" />
+            <marker date="1515058505619" expanded="true" signature="832:885" ph="select passw... usrinfo" />
+            <marker date="1515058505619" expanded="true" signature="832:886" ph="select passw... usrinfo" />
+            <marker date="1515058505619" expanded="true" signature="832:888" ph="select passw... usrinfo" />
+            <marker date="1515058505619" expanded="true" signature="832:889" ph="select passw... usrinfo" />
+            <marker date="1515058505619" expanded="true" signature="1379:1423" ph="select passw... usrinfo" />
+            <marker date="1515058505619" expanded="true" signature="1379:1425" ph="select name,... usrinfo" />
+            <marker date="1515058505619" expanded="true" signature="1379:1438" ph="select name,... usrinfo" />
+            <marker date="1515058505619" expanded="true" signature="1379:1439" ph="select name,... usrinfo" />
+            <marker date="1515058505619" expanded="true" signature="1967:2024" ph="select * fro... usrinfo" />
+            <marker date="1515058505619" expanded="true" signature="2252:2431" ph="insert into usrinfo... " />
+            <marker date="1515058505619" expanded="true" signature="2702:2759" ph="select * fro... usrinfo" />
+            <marker date="1515058505619" expanded="true" signature="2988:3012" ph="update usrInfo... " />
+            <marker date="1515058505619" expanded="true" signature="2988:3031" ph="update usrInfo... " />
+            <marker date="1515058505619" expanded="true" signature="2988:3102" ph="update usrinfo... " />
+            <marker date="1515058505619" expanded="true" signature="2988:3128" ph="update usrInfo... " />
+            <marker date="1515058505619" expanded="true" signature="2988:3139" ph="update usrinfo... " />
+            <marker date="1515058505619" expanded="true" signature="2988:3141" ph="update usrinfo... " />
+            <marker date="1515058505619" expanded="true" signature="2988:3162" ph="update usrinfo... " />
+            <marker date="1515058505619" expanded="true" signature="2988:3163" ph="update usrInfo... " />
+            <marker date="1515058505619" expanded="true" signature="3425:3459" ph="select uid f... friends" />
+            <marker date="1515058505619" expanded="true" signature="3425:3461" ph="select uid f... friends" />
+            <marker date="1515058505619" expanded="true" signature="3425:3471" ph="select uid f... friends" />
+            <marker date="1515058505619" expanded="true" signature="3425:3474" ph="select * fro... friends" />
+            <marker date="1515058505619" expanded="true" signature="3425:3475" ph="select uid f... friends" />
+            <marker date="1515058505619" expanded="true" signature="4280:4397" ph="insert into friends... " />
+            <marker date="1515058505619" expanded="true" signature="4424:4543" ph="insert into friends... " />
+            <marker date="1515058505619" expanded="true" signature="4790:4850" ph="DELETE FROM friends... " />
+            <marker date="1515058505619" expanded="true" signature="5109:5173" ph="update friends... " />
+            <marker date="1515058505619" expanded="true" signature="5109:5174" ph="update friends... " />
+            <marker date="1515058505619" expanded="true" signature="5416:5454" ph="select * fro... message" />
+            <marker date="1515058505619" expanded="true" signature="5416:5497" ph="select * fro... message" />
+            <marker date="1515058505619" expanded="true" signature="5416:5499" ph="select * fro... message" />
+            <marker date="1515058505619" expanded="true" signature="5416:5500" ph="select * fro... message" />
+            <marker date="1515058505619" expanded="true" signature="5416:5510" ph="select * fro... message" />
+            <marker date="1515058505619" expanded="true" signature="5416:5516" ph="select * fro... message" />
+            <marker date="1515058505619" expanded="true" signature="5416:5517" ph="select * fro... message" />
+            <marker date="1515058505619" expanded="true" signature="5416:5583" ph="select * fro... message" />
+            <marker date="1515058505619" expanded="true" signature="5416:5594" ph="select * fro... message" />
+            <marker date="1515058505619" expanded="true" signature="5416:5595" ph="select * fro... message" />
+            <marker date="1515058505619" expanded="true" signature="5416:5617" ph="select * fro... message" />
+            <marker date="1515058505619" expanded="true" signature="5416:5624" ph="select * fro... message" />
+            <marker date="1515058505619" expanded="true" signature="6484:6696" ph="insert into message... " />
+            <marker date="1515058505619" expanded="true" signature="6894:6908" ph="select count... " />
+            <marker date="1515058505619" expanded="true" signature="6894:6920" ph="select count... " />
+            <marker date="1515058505619" expanded="true" signature="6894:6939" ph="select id fr... missingValue" />
           </folding>
         </state>
       </provider>
@@ -942,18 +1072,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="9" column="31" lean-forward="false" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/Json/JsonUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="23" column="23" lean-forward="true" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#946#962#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -965,36 +1083,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/MessageType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="48" lean-forward="false" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/UsrInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="31" lean-forward="true" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
+        <state relative-caret-position="162">
           <caret line="14" column="44" lean-forward="false" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/Message.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1004,81 +1096,124 @@
     <entry file="file://$PROJECT_DIR$/src/model/Friend.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
-          <caret line="3" column="22" lean-forward="true" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+          <caret line="3" column="22" lean-forward="false" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tools/JsonUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="23" column="23" lean-forward="false" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/runable/Start.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="9" column="20" lean-forward="false" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tools/ByteUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="59" lean-forward="false" selection-start-line="12" selection-start-column="59" selection-end-line="12" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/Message.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="10" column="20" lean-forward="false" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/UsrInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="31" lean-forward="false" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/data/mysql/MysqlDatabase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="611">
-          <caret line="131" column="19" lean-forward="true" selection-start-line="131" selection-start-column="19" selection-end-line="131" selection-end-column="19" />
+        <state relative-caret-position="3348">
+          <caret line="191" column="5" lean-forward="false" selection-start-line="191" selection-start-column="5" selection-end-line="191" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3522#3530#0" expanded="true" />
-            <marker date="1514799225699" expanded="true" signature="832:860" ph="select passw... usrinfo" />
-            <marker date="1514799225699" expanded="true" signature="832:873" ph="select passw... usrinfo" />
-            <marker date="1514799225699" expanded="true" signature="832:875" ph="select passw... usrinfo" />
-            <marker date="1514799225699" expanded="true" signature="832:885" ph="select passw... usrinfo" />
-            <marker date="1514799225699" expanded="true" signature="832:886" ph="select passw... usrinfo" />
-            <marker date="1514799225699" expanded="true" signature="832:888" ph="select passw... usrinfo" />
-            <marker date="1514799225699" expanded="true" signature="832:889" ph="select passw... usrinfo" />
-            <marker date="1514799225699" expanded="true" signature="1379:1423" ph="select passw... usrinfo" />
-            <marker date="1514799225699" expanded="true" signature="1379:1425" ph="select name,... usrinfo" />
-            <marker date="1514799225699" expanded="true" signature="1379:1438" ph="select name,... usrinfo" />
-            <marker date="1514799225699" expanded="true" signature="1379:1439" ph="select name,... usrinfo" />
-            <marker date="1514799225699" expanded="true" signature="1967:2024" ph="select * fro... usrinfo" />
-            <marker date="1514799225699" expanded="true" signature="2252:2431" ph="insert into usrinfo... " />
-            <marker date="1514799225699" expanded="true" signature="2702:2759" ph="select * fro... usrinfo" />
-            <marker date="1514799225699" expanded="true" signature="2988:3012" ph="update usrInfo... " />
-            <marker date="1514799225699" expanded="true" signature="2988:3031" ph="update usrInfo... " />
-            <marker date="1514799225699" expanded="true" signature="2988:3102" ph="update usrinfo... " />
-            <marker date="1514799225699" expanded="true" signature="2988:3128" ph="update usrInfo... " />
-            <marker date="1514799225699" expanded="true" signature="2988:3139" ph="update usrinfo... " />
-            <marker date="1514799225699" expanded="true" signature="2988:3141" ph="update usrinfo... " />
-            <marker date="1514799225699" expanded="true" signature="2988:3162" ph="update usrinfo... " />
-            <marker date="1514799225699" expanded="true" signature="2988:3163" ph="update usrInfo... " />
-            <marker date="1514799225699" expanded="true" signature="3425:3459" ph="select uid f... friends" />
-            <marker date="1514799225699" expanded="true" signature="3425:3461" ph="select uid f... friends" />
-            <marker date="1514799225699" expanded="true" signature="3425:3471" ph="select uid f... friends" />
-            <marker date="1514799225699" expanded="true" signature="3425:3474" ph="select * fro... friends" />
-            <marker date="1514799225699" expanded="true" signature="3425:3475" ph="select uid f... friends" />
-            <marker date="1514799225699" expanded="true" signature="4280:4397" ph="insert into friends... " />
-            <marker date="1514799225699" expanded="true" signature="4424:4543" ph="insert into friends... " />
-            <marker date="1514799225699" expanded="true" signature="4790:4850" ph="DELETE FROM friends... " />
-            <marker date="1514799225699" expanded="true" signature="5109:5173" ph="update friends... " />
-            <marker date="1514799225699" expanded="true" signature="5109:5174" ph="update friends... " />
-            <marker date="1514799225699" expanded="true" signature="5416:5454" ph="select * fro... message" />
-            <marker date="1514799225699" expanded="true" signature="5416:5497" ph="select * fro... message" />
-            <marker date="1514799225699" expanded="true" signature="5416:5499" ph="select * fro... message" />
-            <marker date="1514799225699" expanded="true" signature="5416:5500" ph="select * fro... message" />
-            <marker date="1514799225699" expanded="true" signature="5416:5510" ph="select * fro... message" />
-            <marker date="1514799225699" expanded="true" signature="5416:5516" ph="select * fro... message" />
-            <marker date="1514799225699" expanded="true" signature="5416:5517" ph="select * fro... message" />
-            <marker date="1514799225699" expanded="true" signature="5416:5583" ph="select * fro... message" />
-            <marker date="1514799225699" expanded="true" signature="5416:5594" ph="select * fro... message" />
-            <marker date="1514799225699" expanded="true" signature="5416:5595" ph="select * fro... message" />
-            <marker date="1514799225699" expanded="true" signature="5416:5617" ph="select * fro... message" />
-            <marker date="1514799225699" expanded="true" signature="5416:5624" ph="select * fro... message" />
-            <marker date="1514799225699" expanded="true" signature="6482:6496" ph="select count... " />
-            <marker date="1514799225699" expanded="true" signature="6482:6508" ph="select count... " />
-            <marker date="1514799225699" expanded="true" signature="6482:6527" ph="select id fr... missingValue" />
+            <marker date="1515058505619" expanded="true" signature="832:860" ph="select passw... usrinfo" />
+            <marker date="1515058505619" expanded="true" signature="832:873" ph="select passw... usrinfo" />
+            <marker date="1515058505619" expanded="true" signature="832:875" ph="select passw... usrinfo" />
+            <marker date="1515058505619" expanded="true" signature="832:885" ph="select passw... usrinfo" />
+            <marker date="1515058505619" expanded="true" signature="832:886" ph="select passw... usrinfo" />
+            <marker date="1515058505619" expanded="true" signature="832:888" ph="select passw... usrinfo" />
+            <marker date="1515058505619" expanded="true" signature="832:889" ph="select passw... usrinfo" />
+            <marker date="1515058505619" expanded="true" signature="1379:1423" ph="select passw... usrinfo" />
+            <marker date="1515058505619" expanded="true" signature="1379:1425" ph="select name,... usrinfo" />
+            <marker date="1515058505619" expanded="true" signature="1379:1438" ph="select name,... usrinfo" />
+            <marker date="1515058505619" expanded="true" signature="1379:1439" ph="select name,... usrinfo" />
+            <marker date="1515058505619" expanded="true" signature="1967:2024" ph="select * fro... usrinfo" />
+            <marker date="1515058505619" expanded="true" signature="2252:2431" ph="insert into usrinfo... " />
+            <marker date="1515058505619" expanded="true" signature="2702:2759" ph="select * fro... usrinfo" />
+            <marker date="1515058505619" expanded="true" signature="2988:3012" ph="update usrInfo... " />
+            <marker date="1515058505619" expanded="true" signature="2988:3031" ph="update usrInfo... " />
+            <marker date="1515058505619" expanded="true" signature="2988:3102" ph="update usrinfo... " />
+            <marker date="1515058505619" expanded="true" signature="2988:3128" ph="update usrInfo... " />
+            <marker date="1515058505619" expanded="true" signature="2988:3139" ph="update usrinfo... " />
+            <marker date="1515058505619" expanded="true" signature="2988:3141" ph="update usrinfo... " />
+            <marker date="1515058505619" expanded="true" signature="2988:3162" ph="update usrinfo... " />
+            <marker date="1515058505619" expanded="true" signature="2988:3163" ph="update usrInfo... " />
+            <marker date="1515058505619" expanded="true" signature="3425:3459" ph="select uid f... friends" />
+            <marker date="1515058505619" expanded="true" signature="3425:3461" ph="select uid f... friends" />
+            <marker date="1515058505619" expanded="true" signature="3425:3471" ph="select uid f... friends" />
+            <marker date="1515058505619" expanded="true" signature="3425:3474" ph="select * fro... friends" />
+            <marker date="1515058505619" expanded="true" signature="3425:3475" ph="select uid f... friends" />
+            <marker date="1515058505619" expanded="true" signature="4280:4397" ph="insert into friends... " />
+            <marker date="1515058505619" expanded="true" signature="4424:4543" ph="insert into friends... " />
+            <marker date="1515058505619" expanded="true" signature="4790:4850" ph="DELETE FROM friends... " />
+            <marker date="1515058505619" expanded="true" signature="5109:5173" ph="update friends... " />
+            <marker date="1515058505619" expanded="true" signature="5109:5174" ph="update friends... " />
+            <marker date="1515058505619" expanded="true" signature="5416:5454" ph="select * fro... message" />
+            <marker date="1515058505619" expanded="true" signature="5416:5497" ph="select * fro... message" />
+            <marker date="1515058505619" expanded="true" signature="5416:5499" ph="select * fro... message" />
+            <marker date="1515058505619" expanded="true" signature="5416:5500" ph="select * fro... message" />
+            <marker date="1515058505619" expanded="true" signature="5416:5510" ph="select * fro... message" />
+            <marker date="1515058505619" expanded="true" signature="5416:5516" ph="select * fro... message" />
+            <marker date="1515058505619" expanded="true" signature="5416:5517" ph="select * fro... message" />
+            <marker date="1515058505619" expanded="true" signature="5416:5583" ph="select * fro... message" />
+            <marker date="1515058505619" expanded="true" signature="5416:5594" ph="select * fro... message" />
+            <marker date="1515058505619" expanded="true" signature="5416:5595" ph="select * fro... message" />
+            <marker date="1515058505619" expanded="true" signature="5416:5617" ph="select * fro... message" />
+            <marker date="1515058505619" expanded="true" signature="5416:5624" ph="select * fro... message" />
+            <marker date="1515058505619" expanded="true" signature="6484:6696" ph="insert into message... " />
+            <marker date="1515058505619" expanded="true" signature="6894:6908" ph="select count... " />
+            <marker date="1515058505619" expanded="true" signature="6894:6920" ph="select count... " />
+            <marker date="1515058505619" expanded="true" signature="6894:6939" ph="select id fr... missingValue" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Start.java">
+    <entry file="file://$PROJECT_DIR$/src/model/MessageType.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="42" lean-forward="false" selection-start-line="3" selection-start-column="42" selection-end-line="3" selection-end-column="42" />
+        <state relative-caret-position="324">
+          <caret line="18" column="42" lean-forward="false" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/server/TCPServer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="27" column="26" lean-forward="true" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
+        <state relative-caret-position="161">
+          <caret line="230" column="25" lean-forward="true" selection-start-line="230" selection-start-column="25" selection-end-line="230" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

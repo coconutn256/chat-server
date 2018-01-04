@@ -189,7 +189,16 @@ public class MysqlDatabase {
         } finally {
             return results;
         }
+    }
 
+    public void addMessage(Message message){
+        String sql = "insert into message(uid,target_id,type,content,date) values (\'" + message.uid + "\',\'" + message.targetId + "\',\'" + message.type +
+                "\',\'" + message.content + "\',\'" + message.dateTime + "\');";
+        try {
+            stmt.execute(sql);
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
     }
 
     private int getRowNum(String table) {
