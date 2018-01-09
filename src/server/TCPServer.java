@@ -18,6 +18,7 @@ import runable.Start;
 
 import static tools.ByteUtils.addBytes;
 import static tools.ByteUtils.byteArrayToInt;
+import static tools.ByteUtils.intToByteArray;
 
 public class TCPServer extends ServerSocket {
     private static final int SERVER_PORT = 7777;
@@ -217,11 +218,11 @@ public class TCPServer extends ServerSocket {
                     }
 
                     //响应超时,去除在线状态，关闭tcp
-                    if (System.currentTimeMillis() - startTime > TIMEOUT) {
-                        if (Start.onlineList.contains(uid))
-                            Start.onlineList.remove(uid);
-                        client.close();
-                    }
+//                    if (System.currentTimeMillis() - startTime > TIMEOUT) {
+//                        if (Start.onlineList.contains(uid))
+//                            Start.onlineList.remove(uid);
+//                        client.close();
+//                    }
 
                     //发送jsonArrary,清空未发送消息
                     if (!Start.UnsendMessage.get(uid).isEmpty()) {
@@ -231,7 +232,8 @@ public class TCPServer extends ServerSocket {
                         }
                     }
                     byte[] jsonByte = jsonArray.toString().getBytes();
-                    dos.write(jsonByte);
+                    int jsonSize = jsonByte.length;
+                    dos.write(addBytes(intToByteArray(jsonSize),jsonByte));
                     dos.flush();
                     Start.UnsendMessage.get(uid).clear();
 

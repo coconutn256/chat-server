@@ -20,6 +20,7 @@ public class MysqlDatabase {
         try {
             conn = DriverManager.getConnection(DB_URL, USER, PASSWORD);
             stmt = conn.createStatement();
+            stmt.execute("SET SQL_SAFE_UPDATES = 0;");
         } catch (SQLException se) {
             se.printStackTrace();
         } catch (Exception e) {

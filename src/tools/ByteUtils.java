@@ -8,6 +8,15 @@ public class ByteUtils {
                 (b[0] & 0xFF) << 24;
     }
 
+    public static byte[] intToByteArray(int a) {
+        return new byte[] {
+                (byte) ((a >> 24) & 0xFF),
+                (byte) ((a >> 16) & 0xFF),
+                (byte) ((a >> 8) & 0xFF),
+                (byte) (a & 0xFF)
+        };
+    }
+
     public static byte[] addBytes(byte[] data1, byte[] data2) {
         byte[] data3 = new byte[data1.length + data2.length];
         System.arraycopy(data1, 0, data3, 0, data1.length);
