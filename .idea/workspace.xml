@@ -3,6 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="6282d2a2-dc37-4433-9955-bea407c6aebe" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/out/production/chat-server/Test.class" afterPath="$PROJECT_DIR$/out/production/chat-server/Test.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/chat-server/data/mysql/MysqlDatabase.class" afterPath="$PROJECT_DIR$/out/production/chat-server/data/mysql/MysqlDatabase.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/chat-server/model/Message.class" afterPath="$PROJECT_DIR$/out/production/chat-server/model/Message.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/chat-server/model/MessageType.class" afterPath="$PROJECT_DIR$/out/production/chat-server/model/MessageType.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/chat-server/model/UsrInfo.class" afterPath="$PROJECT_DIR$/out/production/chat-server/model/UsrInfo.class" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -83,7 +88,7 @@
       <file leaf-file-name="TCPServer.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/server/TCPServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
+            <state relative-caret-position="1081">
               <caret line="236" column="32" lean-forward="true" selection-start-line="236" selection-start-column="32" selection-end-line="236" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -420,7 +425,7 @@
       <workItem from="1514791818207" duration="8386000" />
       <workItem from="1515052881912" duration="6116000" />
       <workItem from="1515062674232" duration="2203000" />
-      <workItem from="1515476057213" duration="1156000" />
+      <workItem from="1515476057213" duration="1781000" />
     </task>
     <task id="LOCAL-00001" summary="13">
       <created>1514799471009</created>
@@ -457,11 +462,18 @@
       <option name="project" value="LOCAL" />
       <updated>1515477210461</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="2018/1/9">
+      <created>1515477220635</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1515477220635</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32527000" />
+    <option name="totallyTimeSpent" value="33152000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1823" height="1098" extended-state="6" />
@@ -1243,7 +1255,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/server/TCPServer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
+        <state relative-caret-position="1081">
           <caret line="236" column="32" lean-forward="true" selection-start-line="236" selection-start-column="32" selection-end-line="236" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
