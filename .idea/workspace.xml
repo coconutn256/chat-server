@@ -3,11 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="6282d2a2-dc37-4433-9955-bea407c6aebe" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/Test.java" afterPath="$PROJECT_DIR$/src/Test.java" />
-      <change beforePath="$PROJECT_DIR$/src/data/mysql/MysqlDatabase.java" afterPath="$PROJECT_DIR$/src/data/mysql/MysqlDatabase.java" />
-      <change beforePath="$PROJECT_DIR$/src/runable/Start.java" afterPath="$PROJECT_DIR$/src/runable/Start.java" />
-      <change beforePath="$PROJECT_DIR$/src/server/TCPServer.java" afterPath="$PROJECT_DIR$/src/server/TCPServer.java" />
-      <change beforePath="$PROJECT_DIR$/src/tools/ByteUtils.java" afterPath="$PROJECT_DIR$/src/tools/ByteUtils.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -425,7 +420,7 @@
       <workItem from="1514791818207" duration="8386000" />
       <workItem from="1515052881912" duration="6116000" />
       <workItem from="1515062674232" duration="2203000" />
-      <workItem from="1515476057213" duration="1136000" />
+      <workItem from="1515476057213" duration="1156000" />
     </task>
     <task id="LOCAL-00001" summary="13">
       <created>1514799471009</created>
@@ -455,11 +450,18 @@
       <option name="project" value="LOCAL" />
       <updated>1515070285382</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="2018/1/9">
+      <created>1515477210461</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1515477210461</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32507000" />
+    <option name="totallyTimeSpent" value="32527000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1823" height="1098" extended-state="6" />
@@ -503,7 +505,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="13" />
     <MESSAGE value="2018/1/4" />
-    <option name="LAST_COMMIT_MESSAGE" value="2018/1/4" />
+    <MESSAGE value="2018/1/9" />
+    <option name="LAST_COMMIT_MESSAGE" value="2018/1/9" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
